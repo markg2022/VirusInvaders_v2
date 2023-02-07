@@ -1,0 +1,1 @@
+global.player_launches = 5;
