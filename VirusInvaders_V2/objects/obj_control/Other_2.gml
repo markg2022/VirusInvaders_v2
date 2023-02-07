@@ -1,1 +1,1 @@
-global.player_launches = 5;
+//global.player_launches = 5;
