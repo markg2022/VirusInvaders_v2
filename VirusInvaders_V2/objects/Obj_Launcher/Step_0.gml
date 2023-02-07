@@ -1,3 +1,16 @@
+if keyboard_check_pressed(ord("1")) {
+    obj_projectile1.sprite_index = spr_projectile1;
+    obj_projectile1.fast = 30;
+}
+if keyboard_check_pressed(ord("2")) {
+    obj_projectile1.sprite_index = spr_projectile2;
+    obj_projectile1.fast = 40;
+}
+if keyboard_check_pressed(ord("3")) {
+    obj_projectile1.sprite_index = spr_projectile3;
+    obj_projectile1.fast = 50;
+}
+
 if rotate = true {
 	image_angle = direction + 270;
 	
