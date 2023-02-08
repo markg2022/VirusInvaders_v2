@@ -6,3 +6,10 @@ scale = 2;
 rotate = false;
 
 global.launches = 5;
+
+
+//set the scale of projectile
+scale_value = 0.5;
+
+self.scalex = scale_value;
+self.scaley = scale_value;

@@ -35,6 +35,7 @@
     {"id":{"name":"Chunk3","path":"sprites/Chunk3/Chunk3.yy",},"order":0,},
     {"id":{"name":"spr_projectile1","path":"sprites/spr_projectile1/spr_projectile1.yy",},"order":0,},
     {"id":{"name":"Obj_Target","path":"objects/Obj_Target/Obj_Target.yy",},"order":0,},
+    {"id":{"name":"Obj_Target3","path":"objects/Obj_Target3/Obj_Target3.yy",},"order":0,},
     {"id":{"name":"obj_pojectile1","path":"objects/obj_pojectile1/obj_pojectile1.yy",},"order":0,},
     {"id":{"name":"Obj_Floor","path":"objects/Obj_Floor/Obj_Floor.yy",},"order":0,},
     {"id":{"name":"Electric_wall","path":"sprites/Electric_wall/Electric_wall.yy",},"order":0,},
@@ -43,6 +44,7 @@
     {"id":{"name":"wall_4","path":"sprites/wall_4/wall_4.yy",},"order":0,},
     {"id":{"name":"Grid2","path":"sprites/Grid2/Grid2.yy",},"order":0,},
     {"id":{"name":"Obj_Healthbar","path":"objects/Obj_Healthbar/Obj_Healthbar.yy",},"order":0,},
+    {"id":{"name":"Obj_Target2","path":"objects/Obj_Target2/Obj_Target2.yy",},"order":0,},
     {"id":{"name":"obj_hit1","path":"objects/obj_hit1/obj_hit1.yy",},"order":0,},
     {"id":{"name":"Floor_1","path":"sprites/Floor_1/Floor_1.yy",},"order":0,},
     {"id":{"name":"Machine_3","path":"sprites/Machine_3/Machine_3.yy",},"order":0,},
@@ -61,10 +63,10 @@
     {"id":{"name":"Biorganic_device_copie_2","path":"sprites/Biorganic_device_copie_2/Biorganic_device_copie_2.yy",},"order":0,},
     {"id":{"name":"BioComputer","path":"sprites/BioComputer/BioComputer.yy",},"order":0,},
     {"id":{"name":"Computer_station_2","path":"sprites/Computer_station_2/Computer_station_2.yy",},"order":0,},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
+    {"id":{"name":"Level1","path":"rooms/Level1/Level1.yy",},"order":0,},
   ],
   "RoomOrderNodes": [
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"Level1","path":"rooms/Level1/Level1.yy",},},
   ],
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},
