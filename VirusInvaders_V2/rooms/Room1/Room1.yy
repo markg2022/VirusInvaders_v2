@@ -18,8 +18,8 @@
   "layers": [
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances_Target","instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_459E7DFA","properties":[],"isDnd":false,"objectId":{"name":"Obj_Target","path":"objects/Obj_Target/Obj_Target.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.5,"scaleY":-1.5,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":928.0,"y":672.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2345AD80","properties":[],"isDnd":false,"objectId":{"name":"Obj_Target","path":"objects/Obj_Target/Obj_Target.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.5,"scaleY":-1.5,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1344.0,"y":384.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_576B25D7","properties":[],"isDnd":false,"objectId":{"name":"Obj_Target","path":"objects/Obj_Target/Obj_Target.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.5,"scaleY":-1.5,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1696.0,"y":768.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2345AD80","properties":[],"isDnd":false,"objectId":{"name":"Obj_Target2","path":"objects/Obj_Target2/Obj_Target2.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.5,"scaleY":-1.5,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1344.0,"y":384.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_576B25D7","properties":[],"isDnd":false,"objectId":{"name":"Obj_Target3","path":"objects/Obj_Target3/Obj_Target3.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.5,"scaleY":-1.5,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1696.0,"y":768.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7BC4A3AB","properties":[],"isDnd":false,"objectId":{"name":"Obj_TargetPlatform","path":"objects/Obj_TargetPlatform/Obj_TargetPlatform.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":2.5,"scaleY":2.5,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":864.0,"y":672.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2067BCF0","properties":[],"isDnd":false,"objectId":{"name":"Obj_TargetPlatform","path":"objects/Obj_TargetPlatform/Obj_TargetPlatform.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":2.5,"scaleY":2.5,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1280.0,"y":384.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3BE0D340","properties":[],"isDnd":false,"objectId":{"name":"Obj_TargetPlatform","path":"objects/Obj_TargetPlatform/Obj_TargetPlatform.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":2.5,"scaleY":2.5,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1632.0,"y":768.0,},
@@ -86,7 +86,6 @@
     {"name":"inst_2067BCF0","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_7BC4A3AB","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_459E7DFA","path":"rooms/Room1/Room1.yy",},
-    {"name":"inst_2345AD80","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_576B25D7","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_7341FB96","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_542CC5F","path":"rooms/Room1/Room1.yy",},
@@ -98,6 +97,7 @@
     {"name":"inst_15EC20BD","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_203315F8","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_56F09615","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_2345AD80","path":"rooms/Room1/Room1.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
