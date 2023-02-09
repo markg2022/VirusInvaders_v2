@@ -35,6 +35,8 @@ if shoot = false {
 		direction = global.angle;
 		speed = global.fast;
 		rotate = true;
+		
+		audio_play_sound(Launch, 0, false);
 	}
 } else {
 	gravity = gra;

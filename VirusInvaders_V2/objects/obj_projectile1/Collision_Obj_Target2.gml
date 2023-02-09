@@ -32,3 +32,5 @@ if (place_meeting(x, y, Obj_Target2)) {
    vspeed = 0;
    */
 }
+
+audio_play_sound(Crash, 0, false);
