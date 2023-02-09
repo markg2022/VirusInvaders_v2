@@ -25,6 +25,7 @@
     {"name":"Electric_wall","order":7,"path":"sprites/Electric_wall/Electric_wall.yy",},
     {"name":"Floor_5","order":11,"path":"sprites/Floor_5/Floor_5.yy",},
     {"name":"wall_4","order":6,"path":"sprites/wall_4/wall_4.yy",},
+    {"name":"Obj_Wall","order":11,"path":"objects/Obj_Wall/Obj_Wall.yy",},
     {"name":"Obj_Healthbar","order":2,"path":"objects/Obj_Healthbar/Obj_Healthbar.yy",},
     {"name":"Obj_Target2","order":9,"path":"objects/Obj_Target2/Obj_Target2.yy",},
     {"name":"obj_hit1","order":6,"path":"objects/obj_hit1/obj_hit1.yy",},

@@ -42,6 +42,7 @@
     {"id":{"name":"Floor_5","path":"sprites/Floor_5/Floor_5.yy",},"order":0,},
     {"id":{"name":"Obj_TargetPlatform","path":"objects/Obj_TargetPlatform/Obj_TargetPlatform.yy",},"order":0,},
     {"id":{"name":"wall_4","path":"sprites/wall_4/wall_4.yy",},"order":0,},
+    {"id":{"name":"Obj_Wall","path":"objects/Obj_Wall/Obj_Wall.yy",},"order":0,},
     {"id":{"name":"Grid2","path":"sprites/Grid2/Grid2.yy",},"order":0,},
     {"id":{"name":"Obj_Healthbar","path":"objects/Obj_Healthbar/Obj_Healthbar.yy",},"order":0,},
     {"id":{"name":"Obj_Target2","path":"objects/Obj_Target2/Obj_Target2.yy",},"order":0,},
