@@ -4,6 +4,7 @@
   "name": "VirusInvaders_V2",
   "resources": [
     {"id":{"name":"Chunk3","path":"sprites/Chunk3/Chunk3.yy",},"order":0,},
+    {"id":{"name":"Congrats","path":"sounds/Congrats/Congrats.yy",},"order":3,},
     {"id":{"name":"spr_projectile1","path":"sprites/spr_projectile1/spr_projectile1.yy",},"order":0,},
     {"id":{"name":"Obj_Target","path":"objects/Obj_Target/Obj_Target.yy",},"order":0,},
     {"id":{"name":"obj_projectile1","path":"objects/obj_projectile1/obj_projectile1.yy",},"order":0,},
@@ -50,6 +51,7 @@
     {"id":{"name":"Biorganic_device_copie_2","path":"sprites/Biorganic_device_copie_2/Biorganic_device_copie_2.yy",},"order":0,},
     {"id":{"name":"Music","path":"sounds/Music/Music.yy",},"order":2,},
     {"id":{"name":"BioComputer","path":"sprites/BioComputer/BioComputer.yy",},"order":0,},
+    {"id":{"name":"help_game","path":"scripts/help_game/help_game.yy",},"order":5,},
     {"id":{"name":"Computer_station_2","path":"sprites/Computer_station_2/Computer_station_2.yy",},"order":0,},
     {"id":{"name":"obj_results","path":"objects/obj_results/obj_results.yy",},"order":7,},
     {"id":{"name":"sMenuBox","path":"sprites/sMenuBox/sMenuBox.yy",},"order":1,},

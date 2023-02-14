@@ -24,6 +24,7 @@ display_set_gui_size(1920, 1080);
 
 enum menu_page {
 	main,
+	help,
 	settings,
 	audio,
 	height
@@ -42,7 +43,18 @@ enum menu_element_type {
 ds_menu_main = create_menu_page(
 	["START",		menu_element_type.script_runner,	start_game], 
 	["SETTINGS",	menu_element_type.page_transfer,	menu_page.settings],
+	["HELP",	menu_element_type.page_transfer,	menu_page.help],
 	["EXIT",		menu_element_type.script_runner,	exit_game]
+);
+
+ds_help = create_menu_page(
+	["This game is a tool to help reinforce your knowledge of the following formulas!"],
+	[""],
+	["Our goal is to help the user to visualize if what they "], ["manually calculated (on paper) is correct/accurate"],
+	[""],
+	["Formula 1: "], ["Velocity = Force / Mass"],
+	["Formula 2: "], ["Y-Position = Initial-Y-Position + Initial-Velocity * Time * sin(Angle) - 1/2 * Gravity * Time^2"],
+	["BACK",		menu_element_type.page_transfer,	menu_page.main],
 );
 
 ds_settings = create_menu_page(
@@ -52,8 +64,6 @@ ds_settings = create_menu_page(
 
 ds_menu_audio = create_menu_page(
 	["MASTER",		menu_element_type.slider,			change_volume,			1,		[0,1]],
-	["SOUNDS",		menu_element_type.slider,			change_volume,			1,		[0,1]],
-	["MUSIC",		menu_element_type.slider,			change_volume,			1,		[0,1]],
 	["BACK",		menu_element_type.page_transfer,	menu_page.settings],
 );
 
@@ -61,7 +71,7 @@ ds_menu_audio = create_menu_page(
 
 
 page = 0;
-menu_pages = [ds_menu_main, ds_settings, ds_menu_audio]
+menu_pages = [ds_menu_main, ds_help, ds_settings, ds_menu_audio]
 
 var i = 0, array_len = array_length_1d(menu_pages);
 repeat(array_len){
