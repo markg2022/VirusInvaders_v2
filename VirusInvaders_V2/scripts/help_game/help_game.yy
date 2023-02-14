@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "change_volume",
+  "name": "help_game",
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
