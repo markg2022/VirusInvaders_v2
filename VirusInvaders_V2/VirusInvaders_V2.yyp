@@ -21,6 +21,7 @@
     {"id":{"name":"wall_4","path":"sprites/wall_4/wall_4.yy",},"order":0,},
     {"id":{"name":"Grid2","path":"sprites/Grid2/Grid2.yy",},"order":0,},
     {"id":{"name":"Obj_Healthbar","path":"objects/Obj_Healthbar/Obj_Healthbar.yy",},"order":0,},
+    {"id":{"name":"Results","path":"rooms/Results/Results.yy",},"order":2,},
     {"id":{"name":"obj_hit1","path":"objects/obj_hit1/obj_hit1.yy",},"order":0,},
     {"id":{"name":"spr_projectile2","path":"sprites/spr_projectile2/spr_projectile2.yy",},"order":2,},
     {"id":{"name":"oMenu","path":"objects/oMenu/oMenu.yy",},"order":3,},
@@ -50,6 +51,7 @@
     {"id":{"name":"Music","path":"sounds/Music/Music.yy",},"order":2,},
     {"id":{"name":"BioComputer","path":"sprites/BioComputer/BioComputer.yy",},"order":0,},
     {"id":{"name":"Computer_station_2","path":"sprites/Computer_station_2/Computer_station_2.yy",},"order":0,},
+    {"id":{"name":"obj_results","path":"objects/obj_results/obj_results.yy",},"order":7,},
     {"id":{"name":"sMenuBox","path":"sprites/sMenuBox/sMenuBox.yy",},"order":1,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
@@ -74,6 +76,7 @@
   "RoomOrderNodes": [
     {"roomId":{"name":"Menu","path":"rooms/Menu/Menu.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"Results","path":"rooms/Results/Results.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy","order":0,},
