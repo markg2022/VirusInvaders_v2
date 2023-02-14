@@ -1,5 +1,5 @@
 // declare global variables
-global.force = 600;
+global.force = 900;
 global.mass = 30; // default mass or spr_projectile1
 global.fast = global.force/global.mass;
 global.angle = 45;
