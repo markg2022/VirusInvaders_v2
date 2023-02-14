@@ -33,7 +33,6 @@
     {"id":{"name":"spr_bubble","path":"sprites/spr_bubble/spr_bubble.yy",},"order":0,},
     {"id":{"name":"Neutral_screen","path":"sprites/Neutral_screen/Neutral_screen.yy",},"order":0,},
     {"id":{"name":"arial","path":"fonts/arial/arial.yy",},"order":0,},
-    {"id":{"name":"Sprite13","path":"sprites/Sprite13/Sprite13.yy",},"order":0,},
     {"id":{"name":"projMotion","path":"scripts/projMotion/projMotion.yy",},"order":0,},
     {"id":{"name":"startMenu","path":"objects/startMenu/startMenu.yy",},"order":1,},
     {"id":{"name":"Menu","path":"rooms/Menu/Menu.yy",},"order":1,},

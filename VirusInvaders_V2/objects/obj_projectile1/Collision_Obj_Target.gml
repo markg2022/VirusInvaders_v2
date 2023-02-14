@@ -6,7 +6,7 @@ if (health <= 0) {
 
 if (place_meeting(x, y, Obj_Target)) {
   
-	global.player_launches -= 1;
+	global.player_launches += 1;
 	//destroy projectile
 	instance_destroy();
 	

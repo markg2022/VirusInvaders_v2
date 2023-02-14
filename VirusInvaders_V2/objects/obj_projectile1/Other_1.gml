@@ -2,7 +2,7 @@
 //if it hits the top
 if(bbox_top < 0){
 	
-	global.player_launches -=1;
+	global.player_launches +=1;
 	instance_destroy();
 	
 	// to set gameover
@@ -17,7 +17,7 @@ if(bbox_top < 0){
 
 //if it hits left and right
 if(bbox_left < 0 or bbox_right > room_width){
-	global.player_launches -=1;
+	global.player_launches +=1;
 	instance_destroy();
 	
 	// to set gameover

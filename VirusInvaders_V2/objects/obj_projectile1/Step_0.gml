@@ -7,11 +7,13 @@ if shoot ==  false {
 	
 	
 	if keyboard_check_pressed(ord("D")) {
-		global.fast += 0.5;	
+		global.force += 10;
+		global.fast = global.force/global.mass;
 	}
 	
 	if keyboard_check_pressed(ord("A")) {
-		global.fast -= 0.5;	
+		global.force -= 10;
+		global.fast = global.force/global.mass;
 	}
 	
 	if keyboard_check_pressed(ord("W")) {

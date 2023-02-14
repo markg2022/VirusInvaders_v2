@@ -8,6 +8,7 @@ draw_set_halign(fa_left);
 draw_text(450, 980, "Speed: " + string(global.fast));
 draw_set_halign(fa_left);
 
+//instance_create_layer(xstart, ystart, Instances_Projectile, obj_projectile1);
 draw_text(200, 800, "X: " + string(obj_projectile1.xstart));
 draw_set_halign(fa_left);
 
