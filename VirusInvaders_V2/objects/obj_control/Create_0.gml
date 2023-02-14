@@ -1,5 +1,5 @@
 
-global.player_launches = 5;
+global.player_launches = 0;
 
 //initialize variables
 gameover = false;
