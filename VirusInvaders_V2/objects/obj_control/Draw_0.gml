@@ -9,10 +9,13 @@ draw_text(450, 980, "Speed: " + string(global.fast));
 draw_set_halign(fa_left);
 
 //instance_create_layer(xstart, ystart, Instances_Projectile, obj_projectile1);
+draw_text(200, 770, "Projectile Coordinates" );
+draw_set_halign(fa_left);
+
 draw_text(200, 800, "X: " + string(obj_projectile1.xstart));
 draw_set_halign(fa_left);
 
-draw_text(200, 850, "Y: " + string(obj_projectile1.ystart));
+draw_text(200, 820, "Y: " + string(obj_projectile1.ystart));
 draw_set_halign(fa_left);
 
 
@@ -29,13 +32,15 @@ if(instance_number(Obj_Target) <= 0){
 
 target1_x = Obj_Target.x;
 target1_y = Obj_Target.y;
-draw_text(900, 700, "X: " + string(target1_x));
+draw_text(900, 720, "Target Coordinates" );
 draw_set_halign(fa_left);
-draw_text(900, 720, "Y: " + string(target1_y));
+draw_text(900, 740, "X: " + string(target1_x));
 draw_set_halign(fa_left);
-draw_text(900, 740, "Target Distance: " + string(target1_x-obj_projectile1.x));
+draw_text(900, 760, "Y: " + string(target1_y));
 draw_set_halign(fa_left);
-draw_text(900, 760, "Y Diff: " + string(obj_projectile1.y-target1_y));
+draw_text(900, 780, "Target Distance: " + string(target1_x-obj_projectile1.x)+" meters");
+draw_set_halign(fa_left);
+draw_text(900, 800, "Y Difference: " + string(obj_projectile1.y-target1_y)+" meters");
 draw_set_halign(fa_left);
 
 
@@ -55,13 +60,15 @@ if(instance_number(Obj_Target2) <= 0){
 
 target2_x = Obj_Target2.x;
 target2_y = Obj_Target2.y;
-draw_text(1310, 420, "X: " + string(target2_x));
+draw_text(1310, 440, "Target Coordinates" );
 draw_set_halign(fa_left);
-draw_text(1310, 440, "Y: " + string(target2_y));
+draw_text(1310, 460, "X: " + string(target2_x));
 draw_set_halign(fa_left);
-draw_text(1310, 460, "Target Distance: " + string(target2_x-obj_projectile1.x));
+draw_text(1310, 480, "Y: " + string(target2_y));
 draw_set_halign(fa_left);
-draw_text(1310, 480, "Y Diff: " + string(obj_projectile1.y-target2_y));
+draw_text(1310, 500, "Target Distance: " + string(target2_x-obj_projectile1.x)+" meters");
+draw_set_halign(fa_left);
+draw_text(1310, 520, "Y Difference: " + string(obj_projectile1.y-target2_y)+" meters");
 draw_set_halign(fa_left);
 
 
@@ -81,13 +88,15 @@ if(instance_number(Obj_Target3) <= 0){
 
 target3_x = Obj_Target3.x;
 target3_y = Obj_Target3.y;
-draw_text(1660, 800, "X: " + string(target3_x));
+draw_text(1660, 820, "Target Coordinates" );
 draw_set_halign(fa_left);
-draw_text(1660, 820, "Y: " + string(target3_y));
+draw_text(1660, 840, "X: " + string(target3_x));
 draw_set_halign(fa_left);
-draw_text(1660, 840, "Target Distance: " + string(target3_x-obj_projectile1.x));
+draw_text(1660, 860, "Y: " + string(target3_y));
 draw_set_halign(fa_left);
-draw_text(1660, 860, "Y Diff: " + string(obj_projectile1.y-target3_y));
+draw_text(1660, 880, "Target Distance: " + string(target3_x-obj_projectile1.x)+" meters");
+draw_set_halign(fa_left);
+draw_text(1660, 900, "Y Difference: " + string(obj_projectile1.y-target3_y)+" meters");
 draw_set_halign(fa_left);
 
 
