@@ -4,6 +4,7 @@
   "name": "VirusInvaders_V2",
   "resources": [
     {"id":{"name":"Chunk3","path":"sprites/Chunk3/Chunk3.yy",},"order":0,},
+    {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"order":8,},
     {"id":{"name":"Congrats","path":"sounds/Congrats/Congrats.yy",},"order":3,},
     {"id":{"name":"spr_projectile1","path":"sprites/spr_projectile1/spr_projectile1.yy",},"order":0,},
     {"id":{"name":"Obj_Target","path":"objects/Obj_Target/Obj_Target.yy",},"order":0,},

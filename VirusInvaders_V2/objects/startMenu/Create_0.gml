@@ -3,10 +3,7 @@
 
 
 
-
-
-
-
+draw_set_font(arial);
 
 
 global.pause		= true;
@@ -23,6 +20,7 @@ global.key_down		= vk_down;
 display_set_gui_size(1920, 1080);
 
 enum menu_page {
+	start,
 	main,
 	help,
 	settings,
@@ -40,6 +38,11 @@ enum menu_element_type {
 }
 
 //CREATE MENU PAGES
+ds_start = create_menu_page(
+	["VIRUS INVADERS",		menu_element_type.page_transfer,	menu_page.main]
+	
+);
+
 ds_menu_main = create_menu_page(
 	["START",		menu_element_type.script_runner,	start_game], 
 	["SETTINGS",	menu_element_type.page_transfer,	menu_page.settings],
@@ -71,7 +74,7 @@ ds_menu_audio = create_menu_page(
 
 
 page = 0;
-menu_pages = [ds_menu_main, ds_help, ds_settings, ds_menu_audio]
+menu_pages = [ds_start, ds_menu_main, ds_help, ds_settings, ds_menu_audio]
 
 var i = 0, array_len = array_length_1d(menu_pages);
 repeat(array_len){

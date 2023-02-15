@@ -1,4 +1,4 @@
-instance_create_layer(x + 15, y + 10, "hit", obj_hit1);
+instance_create_layer(959, 620, "hit", obj_hit1);
 health -= 1; //decrease the health by 10
 if (health <= 0) {
     with(Obj_Target)instance_destroy(); //if health is less than or equal to 0, destroy the target
