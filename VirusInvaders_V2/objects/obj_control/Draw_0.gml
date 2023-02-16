@@ -1,11 +1,18 @@
+//Information area
 draw_text(150, 980, "Launches: " + string(global.player_launches));
 draw_set_halign(fa_left);
 
 
-draw_text(300, 980, "Angle: " + string(global.angle));
+draw_text(300, 980, "Angle: " + string(global.angle)+" degrees");
 draw_set_halign(fa_left);
 
-draw_text(450, 980, "Speed: " + string(global.fast));
+draw_text(450, 980, "Speed: " + string(global.fast)+" meters/second");
+draw_set_halign(fa_left);
+
+draw_text(700, 980, "Mass: " + string(global.mass)+" kg");
+draw_set_halign(fa_left);
+
+draw_text(850, 980, "Force: " + string(global.force)+" Newtons");
 draw_set_halign(fa_left);
 
 //instance_create_layer(xstart, ystart, Instances_Projectile, obj_projectile1);
@@ -23,10 +30,10 @@ draw_set_halign(fa_left);
 if(instance_number(Obj_Target) <= 0){
 	target1_x = 0;
 	target1_y = 0;
-	draw_text(900, 700, "X: " + string(target1_x));
+	draw_text(900, 720, "X: " + string(target1_x));
 	draw_set_halign(fa_left);
 	
-	draw_text(900, 720, "Y: " + string(target1_y));
+	draw_text(900, 740, "Y: " + string(target1_y));
 	draw_set_halign(fa_left);
 }else{
 
@@ -51,10 +58,10 @@ draw_set_halign(fa_left);
 if(instance_number(Obj_Target2) <= 0){
 	target2_x = 0;
 	target2_y = 0;
-	draw_text(1310, 420, "X: " + string(target2_x));
+	draw_text(1310, 440, "X: " + string(target2_x));
 	draw_set_halign(fa_left);
 	
-	draw_text(1310, 440, "Y: " + string(target2_y));
+	draw_text(1310, 460, "Y: " + string(target2_y));
 	draw_set_halign(fa_left);
 }else{
 
@@ -79,10 +86,10 @@ draw_set_halign(fa_left);
 if(instance_number(Obj_Target3) <= 0){
 	target3_x = 0;
 	target3_y = 0;
-	draw_text(1660, 800, "X: " + string(target3_x));
+	draw_text(1660, 820, "X: " + string(target3_x));
 	draw_set_halign(fa_left);
 	
-	draw_text(1660, 800, "Y: " + string(target3_y));
+	draw_text(1660, 840, "Y: " + string(target3_y));
 	draw_set_halign(fa_left);
 }else{
 

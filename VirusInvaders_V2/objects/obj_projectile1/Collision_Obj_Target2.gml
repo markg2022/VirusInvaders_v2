@@ -11,7 +11,7 @@ if (place_meeting(x, y, Obj_Target2)) {
 	instance_destroy();
 	
 	//destroy target
-	instance_destroy(other);
+	//instance_destroy(other);
 	
 	// to set gameover
 	if(global.player_launches <= 0){
